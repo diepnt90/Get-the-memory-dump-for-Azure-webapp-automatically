@@ -33,6 +33,7 @@ Parameters:
 $pair = 'username:password'
 
 username = webapp name
+
 Password = check by selecting property on any webjob
 
 ![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/credential.JPG)
@@ -40,7 +41,9 @@ Password = check by selecting property on any webjob
 d:\devtools\sysinternals\procdump -accepteula -ma $response.id -m 300 -s 5 -n 1 D:\home\Logfiles\
 
 $response.id : process id of non-scm w3wp
--m : memory threshold
+
+-m : memory 
+
 300 : 300MB
 
 -s 5 : wait 5 second to get dump after reaching threshold
@@ -66,6 +69,7 @@ Go to webjod and add as below
 ![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/addwebjob.JPG)
 
 Name: type the correct name as you wrote above. For example: getdump
+
 File upload: the zip file of ps1
 
 Then OK
