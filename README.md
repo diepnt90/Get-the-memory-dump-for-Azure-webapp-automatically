@@ -42,7 +42,7 @@ iex $command
 
 Start-Sleep -s 
 
-Invoke-WebRequest -uri "https://$domain.scm.azurewebsites.net/api/continuouswebjobs/getdump/stop" -Method POST -Headers $headers -ContentType "application/json"
+Invoke-RestMethod -uri "https://$domain.scm.azurewebsites.net/api/continuouswebjobs/getdump/stop" -Method POST -Headers $headers -ContentType "application/json"
 
 
 
