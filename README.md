@@ -26,10 +26,9 @@ Password = check by selecting property on any webjob
 
 ![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/credential.JPG)
 
-d:\devtools\sysinternals\procdump -accepteula -ma 7316 -m 300 -s 5 -n 1 D:\home\Logfiles\
+d:\devtools\sysinternals\procdump -accepteula -ma $response.id -m 300 -s 5 -n 1 D:\home\Logfiles\
 
-7316 - Process ID of non-scm w3wp. You can open proccess explorere on Kudu for getting it
-
+$response.id : process id of non-scm w3wp
 -m : memory threshold
 300 : 300MB
 
