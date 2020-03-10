@@ -1,5 +1,6 @@
 # Get-the-memory-dump-for-Azure-webapp-automatically
 Get the memory dump for Azure webapp automatically
+
 Create a Powershell file with the following content.
 
 $pair = '$diepazure:k7dBzw0vWf952A5Mu79JuG2DmrsptQ7jslH4pL3fxterdmlxZi0MZWjigLEH'
@@ -19,5 +20,5 @@ $pair = 'username:password'
 username = webapp name
 Password = check by selecting property on any webjob
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/credential.JPG)
 
