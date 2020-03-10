@@ -56,6 +56,7 @@ Start-Sleep: wait 5 minutes for writing the dump
 https://diepazure.scm.azurewebsites.net/api/continuouswebjobs/getdump/stop
 
 diepazure : the webapp name
+
 getdump: the name you type when creating the webjob
 
 then save as .ps1 file and zip it
