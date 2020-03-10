@@ -17,4 +17,7 @@ Parameters:
 $pair = 'username:password'
 
 username = webapp name
-Password
+Password = check by selecting property on any webjob
+
+![alt text](http://url/to/img.png)
+
