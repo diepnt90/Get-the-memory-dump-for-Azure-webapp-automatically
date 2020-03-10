@@ -96,3 +96,7 @@ Go to Kudu then webjob dashboard and choose "getdump" then you can see the outpu
 ![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/monitoring.JPG)
 
 Once, the job gets a dump and completes writing the dump, it will stop the webjob by itself.
+
+#benefit
+
+if the w3wp.exe crashes with different trigger like an exception code, ex StackOverflow exception (0xC00000FD), AccessViolationException (0xC0000005), etc? In this scenario, we can use Crash Diagnoser siteextension , however it will only monitor the current Instance in the current Kudu site (which is a random instance).
