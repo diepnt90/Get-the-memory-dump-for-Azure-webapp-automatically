@@ -47,12 +47,15 @@ Invoke-WebRequest -uri "https://$domain.scm.azurewebsites.net/api/continuouswebj
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Parameters:
+#How to use
 
 
 Password = check by selecting property on any webjob
 
 ![alt text](https://github.com/diepnt90/Get-the-memory-dump-for-Azure-webapp-automatically/blob/master/img/credential.JPG)
+
+Modify the procdump command to match with your purpose
+Blow is an example to get the dump when memory usage reaches 300 MB
 
 d:\devtools\sysinternals\procdump -accepteula -ma $response.id -m 300 -s 5 -n 1 D:\home\Logfiles\
 
