@@ -57,9 +57,8 @@ Password = check by selecting property on any webjob
 Modify the procdump command to match with your purpose
 Blow is an example to get the dump when memory usage reaches 300 MB
 
-d:\devtools\sysinternals\procdump -accepteula -ma $response.id -m 300 -s 5 -n 1 D:\home\Logfiles\
+d:\devtools\sysinternals\procdump -accepteula -ma $processid -m 300 -s 5 -n 1 D:\home\Logfiles\
 
-$response.id : process id of non-scm w3wp. It will automatically get by webjob.
 
 -m : memory 
 
