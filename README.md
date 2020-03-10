@@ -40,7 +40,7 @@ $command="d:\devtools\sysinternals\procdump -accepteula -ma $processid -m 300 -s
 
 iex $command
 
-Start-Sleep -s 
+Start-Sleep -s 300
 
 Invoke-RestMethod -uri "https://$domain.scm.azurewebsites.net/api/continuouswebjobs/getdump/stop" -Method POST -Headers $headers -ContentType "application/json"
 
