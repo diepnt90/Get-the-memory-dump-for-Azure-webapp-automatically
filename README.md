@@ -99,4 +99,6 @@ Once, the job gets a dump and completes writing the dump, it will stop the webjo
 
 #benefit
 
-if the w3wp.exe crashes with different trigger like an exception code, ex StackOverflow exception (0xC00000FD), AccessViolationException (0xC0000005), etc? In this scenario, we can use Crash Diagnoser siteextension , however it will only monitor the current Instance in the current Kudu site (which is a random instance).
+if the site (w3wp.exe) is crashed because of different trigger such as a code exception (StackOverflow exception (0xC00000FD), AccessViolationException (0xC0000005), etc.), we can use crash diagnoster extension to examine to root cause. However, this extension can only run randomly on 1 instance. Hence, if the site contains multiple instances and the exception or crashed has happened sporadically, it will be hard to detect the instance to get the exact memory dump. 
+
+Indeed, the below tool will scan through all the instances of the webapp, thus, it will be easier to get the dump file at the time the issue happened
