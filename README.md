@@ -1,7 +1,10 @@
 # Get-the-memory-dump-for-Azure-webapp-automatically
 Automatically get the memory dump for Azure webapp by:
-scanning through all instances
+
+	scanning through all instances
+
 	detecting the issued one
+
 	capturing memory dump from the troubled instance
 
 Create a Powershell file with the following content.
