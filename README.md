@@ -7,6 +7,8 @@ Automatically get the memory dump for Azure webapp by:
 
 	capturing memory dump from the troubled instance
 
+Check release tab for new version. it will save the dump into INTE blob automatically.
+
 Create a Powershell file with the following content.
 ----------------------------------------------------
 
