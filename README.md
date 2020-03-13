@@ -78,7 +78,7 @@ d:\devtools\sysinternals\procdump -accepteula -ma $processid -m 300 -s 5 -n 1 D:
 
 For CPU or any exception you can check below article for modifying the command
 
-https://knowledge.broadcom.com/external/article?legacyId=tech95826
+https://docs.microsoft.com/en-us/sysinternals/downloads/procdump
 
 Start-Sleep: wait 5 minutes for writing the dump
 
