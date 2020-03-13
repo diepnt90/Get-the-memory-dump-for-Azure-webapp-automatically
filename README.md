@@ -75,6 +75,7 @@ d:\devtools\sysinternals\procdump -accepteula -ma $processid -m 300 -s 5 -n 1 D:
 -s 5 : wait 5 second to get dump after reaching threshold
 
 -n 1 : get 1 dump
+-k : kill after getting dump
 
 For CPU or any exception you can check below article for modifying the command
 
